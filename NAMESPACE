@@ -1,0 +1,3 @@
+exportPattern("^[[:alpha:]]+")
+export(plmDEmodel, limmaPLM, plot.DEresults, fitBspline, mostDE, info, fitGAPLM, fitBspline)
+importFrom(MASS, glm.nb, negative.binomial)
